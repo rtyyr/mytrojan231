@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="qwe.css"/>
+  </head>
+  <body>
+    <header>
+      <a href="" class="shadow-text">Главная</a>
+    </header>
+    <main>
+      <h1 class="underline-one">Белов Дмитрий</h1>
+      <ul>
+        <li>люблю играть в ARMA 3</li>
+        <li>катаюсь на ролликах</li>
+        <li>хожу на алгоритмику</li>
+      </ul>
+      <img src="https://workspace.ru/upload/resize_cache/executor_cases/f05/ad1eivwqzamjrt8grdu14yrghg2e8zoq/907_611_1619711fa078991f0a23d032687646b21/alg1.png" width="830px" height="600px">
+      <img src="https://www.meme-arsenal.com/memes/0e68fdcf765b0f7705d938bde08cb476.jpg" width="830px" height="600px"/>
+    </main>
+    <footer>
+      <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/04/Group%201_0_1618254571.png" width="100px" height="100px"/></a>
+      <a class="social" href=""><img src="https://theprogs.ru/wp-content/uploads/sferum-logo-200x200.png" width="100px" height="100px"/></a>
+      <a class="social" href=""><img src="https://cdn.worldvectorlogo.com/logos/telegram-1.svg" width="100px" height="100px"/></a>
+    </footer>
+  </body>
+</html>
