@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #5ccccc;
+  padding: 40px 0px 40px 25px;
+}
+
+.link-header {
+  background-color: #9FEE00;
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+nav {
+  padding: 35px 40px 0px 40px;
+}
+
+.link-nav {
+  color: black;
+  font-size: 24px;
+  margin-right: 35px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: #2AB428;
+  font-size: 96px;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+ul {
+  font-size: 24px;
+  list-style: 
+  margin-left: 60px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+}
+  
+.link-text {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+}
+
+.social {
+  margin-right: 60px;
+}
+.underline-one {
+	color: #f66d52; 
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.5s; 
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; 
+    transition: width 0.5s; 
+}
+.shadow-text{
+  color: #f66d52;
+  font-size: 2em; 
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #ffa000; 
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
